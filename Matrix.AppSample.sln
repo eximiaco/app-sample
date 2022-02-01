@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{62ADDC43-45EF-4B13-9D2E-A51A5457C4DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{88791E4B-BEE4-4BFF-9A49-C6F89AE5CF7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix.AppSample.HttpApi", "src\Matrix.AppSample.HttpApi\Matrix.AppSample.HttpApi.csproj", "{B0DDAFE6-5291-4FED-AE48-039CAF47756F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix.AppSample", "src\Matrix.AppSample\Matrix.AppSample.csproj", "{B85BF5D5-3A0E-4FCB-8ACC-B79958842C8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0DDAFE6-5291-4FED-AE48-039CAF47756F} = {62ADDC43-45EF-4B13-9D2E-A51A5457C4DF}
+		{B85BF5D5-3A0E-4FCB-8ACC-B79958842C8D} = {62ADDC43-45EF-4B13-9D2E-A51A5457C4DF}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0DDAFE6-5291-4FED-AE48-039CAF47756F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DDAFE6-5291-4FED-AE48-039CAF47756F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DDAFE6-5291-4FED-AE48-039CAF47756F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DDAFE6-5291-4FED-AE48-039CAF47756F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B85BF5D5-3A0E-4FCB-8ACC-B79958842C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85BF5D5-3A0E-4FCB-8ACC-B79958842C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85BF5D5-3A0E-4FCB-8ACC-B79958842C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85BF5D5-3A0E-4FCB-8ACC-B79958842C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
